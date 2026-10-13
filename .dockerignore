@@ -1,0 +1,40 @@
+# Git metadata
+.git
+
+# Dependencies
+node_modules
+**/node_modules
+
+# Local environment and secrets
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!.env.*.example
+!**/.env.example
+!**/.env.*.example
+
+# Generated files and caches
+dist
+dist-ssr
+build
+coverage
+.vite
+**/dist
+**/dist-ssr
+**/build
+**/coverage
+**/.vite
+
+# Logs and local/editor/OS files
+logs
+**/logs
+*.log
+**/*.log
+.DS_Store
+**/.DS_Store
+Thumbs.db
+**/Thumbs.db
+.idea
+.vscode
