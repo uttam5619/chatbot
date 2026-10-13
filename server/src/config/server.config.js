@@ -1,7 +1,7 @@
 
-import {app} from "./app.js";
-import {connectDB} from "./config/db.config.js";
-import {connectChromaDB} from "./config/chroma.config.js";
+import {app} from "../app.js";
+import {connectDB} from "./db.config.js";
+import {connectChromaDB} from "./chroma.config.js";
 
 const startServer =()=>{
     const port = process.env.PORT || 5000;
