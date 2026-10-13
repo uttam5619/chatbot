@@ -1,6 +1,4 @@
-
 import { Document } from "@langchain/core/documents";
-
 export class MySQLDocumentLoader {
     
   constructor({
